@@ -38,5 +38,13 @@ next-env.d.ts
 .vscode/
 .idea/
 
-# Docs
+# Docs & Assets
 features.md
+*.md
+!README.md
+
+# AI Tooling & Internal Files
+.agent/
+.agents/
+.gemini/
+skills-lock.json
