@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Article } from "@/lib/articles";
 
-interface FeaturedArticleProps extends Article {}
+interface FeaturedArticleProps extends Article { }
 
 export default function FeaturedArticle({
   slug,
@@ -26,6 +26,7 @@ export default function FeaturedArticle({
             className="object-cover transition-transform duration-700 group-hover:scale-105"
             priority
             sizes="(max-width: 1024px) 100vw, 50vw"
+            unoptimized
           />
         </div>
 
@@ -36,14 +37,15 @@ export default function FeaturedArticle({
             {title}
           </h2>
           <p className="text-text-secondary mb-6 line-clamp-3 leading-relaxed">{subtitle}</p>
-          
+
           <div className="flex items-center gap-3">
             <Image
               src={author.image}
               alt={author.name}
               width={40}
               height={40}
-              className="rounded-full object-cover"
+              className="rounded-full object-cover bg-border-light"
+              unoptimized
             />
             <div>
               <p className="text-sm font-medium text-text-primary">{author.name}</p>

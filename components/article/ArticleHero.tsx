@@ -50,7 +50,8 @@ export default function ArticleHero({
               alt={author.name}
               width={48}
               height={48}
-              className="rounded-full object-cover"
+              className="rounded-full object-cover bg-border-light"
+              unoptimized
             />
             <div className="flex-1">
               <p className="font-medium text-text-primary">{author.name}</p>
@@ -75,6 +76,7 @@ export default function ArticleHero({
               className="object-cover"
               priority
               sizes="(max-width: 1080px) 100vw, 1080px"
+              unoptimized
             />
           </div>
           {heroCaption && (

@@ -25,7 +25,7 @@ export const articles: Article[] = [
     slug: "building-dispatch-magazine",
     category: "Design",
     title: "The Architecture of Editorial Design",
-    subtitle: "How we built the world's most beautiful reading experience by combining brutalist principles with cinematic layouts.",
+    subtitle: "A look at the process behind our custom reading experience. How we applied brutalist principles and cinematic layouts.",
     heroImage: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1600&h=900&fit=crop",
     heroCaption: "Photo by Domenico Loia on Unsplash",
     author: {

@@ -25,7 +25,8 @@ export default function AuthorCard({
             alt={name}
             width={80}
             height={80}
-            className="rounded-full object-cover flex-shrink-0"
+            className="rounded-full object-cover bg-border-light flex-shrink-0"
+            unoptimized
           />
           <div className="flex-1">
             <p className="overline mb-2">Written by</p>

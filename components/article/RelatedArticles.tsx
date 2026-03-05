@@ -19,7 +19,7 @@ export default function RelatedArticles({ articles }: RelatedArticlesProps) {
   return (
     <section className="max-w-wide mx-auto px-6 py-16 border-t border-border-light">
       <h2 className="font-serif text-2xl text-text-primary mb-8">Related Reading</h2>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {articles.map((article) => (
           <Link
@@ -28,13 +28,14 @@ export default function RelatedArticles({ articles }: RelatedArticlesProps) {
             className="group"
           >
             <article>
-              <div className="aspect-[4/3] relative overflow-hidden bg-bg-secondary mb-4 rounded-lg">
+              <div className="aspect-[3/2] relative overflow-hidden bg-bg-secondary rounded-lg mb-4">
                 <Image
                   src={article.heroImage}
                   alt={article.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1080px) 33vw, 360px"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  unoptimized
                 />
               </div>
               <span className="overline">{article.category}</span>

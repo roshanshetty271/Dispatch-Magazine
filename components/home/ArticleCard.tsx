@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Article } from "@/lib/articles";
 
-interface ArticleCardProps extends Article {}
+interface ArticleCardProps extends Article { }
 
 export default function ArticleCard({
   slug,
@@ -23,6 +23,7 @@ export default function ArticleCard({
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            unoptimized
           />
         </div>
         <span className="overline">{category}</span>
