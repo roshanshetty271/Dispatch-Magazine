@@ -41,7 +41,7 @@ export default function CareersPage() {
                     <h3>Frontend Engineer</h3>
                     <p>
                         <strong>Location:</strong> Remote (Global)<br />
-                        Help us build beautiful, performant reading experiences. You'll work
+                        Help us build beautiful, performant reading experiences. You&apos;ll work
                         with Next.js, React, and Tailwind CSS to evolve our design system and
                         create interactive narrative features.
                     </p>

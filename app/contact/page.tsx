@@ -25,7 +25,7 @@ export default function ContactPage() {
                     <h2>Editorial & Pitches</h2>
                     <p>
                         We are always looking for fresh perspectives on technology, design, and
-                        culture. If you have an essay or feature you'd like to pitch, please
+                        culture. If you have an essay or feature you&apos;d like to pitch, please
                         email a brief summary and portfolio to <a href="mailto:pitches@dispatch.magazine">pitches@dispatch.magazine</a>.
                     </p>
                     <h2>General Inquiries</h2>

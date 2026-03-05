@@ -30,10 +30,10 @@ export default function AboutPage() {
                     </p>
                     <h2>Our Philosophy</h2>
                     <p>
-                        We don't chase breaking news or daily outrage. Instead, we publish
+                        We don&apos;t chase breaking news or daily outrage. Instead, we publish
                         weekly essays, interviews, and features that provide context to an
                         increasingly complex world. Our conviction is that the best way to
-                        understand the future isn't to look at the latest gadget, but to
+                        understand the future isn&apos;t to look at the latest gadget, but to
                         examine how humans interact with the systems we build.
                     </p>
                     <p>
